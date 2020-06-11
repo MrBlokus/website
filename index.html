@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    @import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap");
+body {
+  width: 100%;
+  margin: 0;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main {
+  width: 1200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main section:first-child {
+  width: 32%;
+  display: block;
+  padding: 0 30px 30px 30px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #015892;
+}
+
+main section:first-child article {
+  color: white;
+  width: 100%;
+}
+
+main section:first-child article.header {
+  margin: 20px 0 20px 0;
+  font-size: 50px;
+  font-family: 'Staatliches', cursive;
+}
+
+main section:first-child article.default > span {
+  margin: 30px 0 30px 0;
+  display: block;
+  font-size: 25px;
+  font-family: 'Inter', sans-serif;
+  text-transform: uppercase;
+}
+
+main section:first-child article.default > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main section:first-child article.default > div > span {
+  color: #f8f8f8;
+  margin: 10px 0 10px 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+main section:first-child article.default.general > div {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main section:first-child article.default.aboutMe > div span, main section:first-child article.default.interests > div span {
+  text-indent: 30px;
+}
+
+main section:first-child article.default.skills > div {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+main section:first-child article.default.languages > div {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+main section:first-child article.default.languages > div > span {
+  width: 100%;
+}
+
+main section:first-child article.default.languages > div > span.progressBar {
+  height: 5px;
+  border-radius: 5px;
+  background-color: #f8f8f8;
+}
+
+main section:last-child {
+  width: 60%;
+  display: block;
+  padding: 0 40px 40px 40px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: rgba(243, 243, 243, 0.3);
+}
+
+main section:last-child article {
+  margin: 20px 0 20px 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+main section:last-child article.default > span {
+  margin: 30px 0 20px 0;
+  display: block;
+  font-size: 35px;
+  font-family: 'Inter', sans-serif;
+}
+
+main section:last-child article.default span {
+  display: block;
+}
+
+main section:last-child article.default.profil > div > span {
+  color: #333333;
+  text-indent: 30px;
+  font-family: 'Poppins', sans-serif;
+}
+
+main section:last-child article.default.info > div > div span {
+  font-family: 'Poppins', sans-serif;
+}
+
+main section:last-child article.default.info > div > div:first-child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main section:last-child article.default.info > div > div:first-child span {
+  color: #333333;
+  font-size: 18px;
+}
+
+main section:last-child article.default.info > div > div:nth-child(2) {
+  margin: 0 0 20px 0;
+}
+
+main section:last-child article.default.info > div > div:nth-child(2) > span {
+  color: #333333;
+  font-size: 15px;
+}
+
+main section:last-child article.default.info > div > div:nth-child(3) {
+  font-size: 15px;
+}
+/*# sourceMappingURL=style.css.map */
+</style>
+<body>
+    <main>
+        <section>
+            <article class="header">
+                <span>Nikodem Kruczek</span>
+            </article>
+            <article class="default aboutMe">
+                <span>O mnie</span>
+                <div>
+                    <span>Piękny i przystojny mężczyzna z klasą, nieprzeciętny, wysportowany, inetligentny, ogolony.</span>
+                </div>
+            </article>
+            <article class="default general">
+                <span>Informacje</span>
+                <div>
+                    <span>Numer telefonu:</span>
+                    <span>535-135-801</span>
+                </div>
+                <div>
+                    <span>E-Mail:</span>
+                    <span>Nikodemek2000@tlen.pl</span>
+                </div>
+            </article>
+            <article class="default skills">
+                <span>Umiejętności</span>
+                <div>
+                    <span>Opieka nad zwierzętami towarzyskimi</span>
+                    <span>Umiejętość doboru karmy bytowej</span>
+                    <span>Znajomość podstawowych parametrów przeciwpasożtniczych</span>
+                </div>
+            </article>
+            <article class="default interests">
+                <span>Zainteresowania</span>
+                <div>
+                    <span>Handing psów, rynek gier komputerowych, łyżwym oraz medycyna weterynaryjna</span>
+                </div>
+            </article>
+            <article class="default languages">
+                <span>Języki</span>
+                <div>
+                    <span>Język Polski</span>
+                    <span class="progressBar" style="width: 100%;"></span>
+                    <span>Język Angielski</span>
+                    <span class="progressBar" style="width: 60%;"></span>
+                </div>
+            </article>
+        </section>
+        <section>
+            <article class="default profil">
+                <span>Profil</span>
+                <div>
+                    <span>Doświadczenie w przeprowadzaniu prac porządkowych oraz opiece nad zwierzętami towarzyskimi.</span>
+                </div>
+            </article>
+            <article class="default info">
+                <span>Historia zatrudnienia</span>
+                <div>
+                    <div>
+                        <span>Sprzątacz, Wspolnota Mieszkaniowa Rynek 28-29</span><span>Kąty Wrocłąwskie</span>
+                    </div>
+                    <div>
+                        <span>Listopad 2019 - Obecnie</span>
+                    </div>
+                    <div>
+                        <span>Zajmuje się utrzymywaniem czystości w klatkach schodowych oraz piwnicach w mojej wspólnocie mieszkaniowej.</span>
+                    </div>
+                </div>
+            </article>
+            <article class="default info">
+                <span>Praktyki</span>
+                <div>
+                    <div>
+                        <span>Technik weterynarii, Clinica Veterinaria Citta di Forli</span><span>Forli</span>
+                    </div>
+                    <div>
+                        <span>Czerwiec 2019 - Lipiec 2019</span>
+                    </div>
+                    <div>
+                        <span>Odbyłem praktyki w klinice weterynaryjnej we Włoszech.</span>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+</body>
+</html>
